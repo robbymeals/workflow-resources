@@ -1,2 +1,10 @@
 # workflow-resources
-vaguely associated collection of useful docs, tools, config examples for general development workflow
+
+### vim
+
+### must-have command line tools
+1. screen
+2. pandoc
+3. 
+
+### general software engineering
