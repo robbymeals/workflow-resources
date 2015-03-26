@@ -1,5 +1,8 @@
 # workflow-resources
 
+### ssh
+ServerAliveInterval: http://www.howtogeek.com/howto/linux/keep-your-linux-ssh-session-from-disconnecting/
+
 ### vim
 
 ### must-have command line tools
