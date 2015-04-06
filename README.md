@@ -31,7 +31,9 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
   1. `sponge`
   1. `vipe`
 1. `less -S`: really useful alternative to `more` for scanning long text files 
-
+1. `gdal` and `ogr2ogr`: useful opengis tools
+    1. https://milkator.wordpress.com/2014/05/06/set-up-gdal-on-ubuntu-14-04/:w
 ### useful one-liners
 
 ### general software engineering
+
