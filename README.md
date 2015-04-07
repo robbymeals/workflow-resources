@@ -12,12 +12,17 @@ set expandtab
 set softtabstop=4
 set shiftwidth=4
 set background=dark
+set nu
+set exrc "enable working directory vimrc files
+set secure "restrict commands in wd vimrc files
 syntax on
 filetype plugin indent on
 colorscheme zellner
-let &colorcolumn="80,".join(range(120,999),",")
-set nowrap
-autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let &colorcolumn="80,".join(range(120,999),",") "highlight after 80width
+set nowrap "no text wrapping
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown "md files markdown
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE gui
+fg=DarkGrey guibg=NONE "change color of line numbers
 ```
 1. I use pathogen on my local machine to manage plugins: 
     1. https://github.com/tpope/vim-pathogen
